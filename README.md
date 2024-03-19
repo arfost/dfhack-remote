@@ -122,6 +122,8 @@ RemoteFortressReader has a strange bug where it "remembers" what it returned to
 buggy way to implement "change-driven notifications" and should be fixed there.
 For now, remember `GetBlockList` only returns changes since the last call!
 
+-- This was adressed in later version by adding the flag "force_reload" which can force a reload. It's now available here as well (camel case converted to forceReload)
+
 ### TODO
 
 * Make the client an actual JavaScript module.  Right now, it's stuffed into `window.DwarfClient`.
