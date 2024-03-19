@@ -573,7 +573,7 @@ class DwarfClient {
                 }
             }
         }
-        this._initialized_res()
+        this._initialized_res(true)
         return true
     }
 
