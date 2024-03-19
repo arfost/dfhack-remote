@@ -3,6 +3,6 @@
 
 const df = require('./lib.js')
 
-window.FUNC_DEFS = FUNC_DEFS
+window.FUNC_DEFS = df.FUNC_DEFS
 window.DwarfClient = df.DwarfClient
 window.newDwarfClient = df.newDwarfClient
